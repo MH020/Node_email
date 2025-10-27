@@ -4,6 +4,9 @@
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
+
+	"forwardPorts": [8080],
+	
 "remoteUser": "node",
 "features": {
 	"ghcr.io/stuartleeks/dev-container-features/shell-history:0": {},
