@@ -1,0 +1,12 @@
+// See https://containers.dev/implementors/json_reference/ for configuration reference
+{
+	"name": "node email project",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+"remoteUser": "node",
+"features": {
+	"ghcr.io/stuartleeks/dev-container-features/shell-history:0": {},
+	"ghcr.io/devcontainers-extra/features/fish-apt-get:1": {}
+}
+}
